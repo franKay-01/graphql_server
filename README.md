@@ -12,12 +12,12 @@ git clone https://github.com/yourusername/yourproject.git
 5. \q
 
 # Configure Sequelize
-cd /graphql_server
-run ```npm install ```
-Open config.js in any IDE you prefer
-Replace the database credentails with the one you just created
-run ```npx sequelize-cli db:migrate```
-run ```npx sequelize-cli db:seed:all```
+1. cd /graphql_server
+2. run ```npm install ```
+3. Open config.js in any IDE you prefer
+4. Replace the database credentails with the one you just created
+5. run ```npx sequelize-cli db:migrate```
+6. run ```npx sequelize-cli db:seed:all```
 
 # Create ENV file
 create a .env file in your root folder
