@@ -1,8 +1,8 @@
 const config = {
   development: {
-    username: "online_store_user",
-    password: "test1234",
-    database: "online_store_db",
+    username: "your_username",
+    password: "your_password",
+    database: "your_db",
     host: "localhost",
     dialect: "postgres",
   },
