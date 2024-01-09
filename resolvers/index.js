@@ -103,14 +103,6 @@ const resolvers = {
         throw new Error('Error logging user in');
       }
     }
-    // secureQuery: (_, args, context) => {
-    //   const token = context.req.headers.authorization || ''; // Extract token from headers, cookies, etc.
-    //   const user = getUser(token); // Validate and extract user information from token
-    //   if (!user) {
-    //     throw new Error('Unauthorized');
-    //   }
-    //   // ... secure query logic
-    // },
   },
  
   // ... nested queries
